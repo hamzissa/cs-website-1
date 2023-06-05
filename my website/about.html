@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="./css/style.css"> </link>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>computer science</title>
+</head>
+<body>
+    
+    <!-- navigation area --> 
+    <div class = "navigation-area">
+      <p><a style = color:black; href="about.html">About us</a> </p>
+      <p><a style = color:black; href="ai.html">Artificial Intelligence</a></p>
+      <p> <a style = color:black; href="computers.html">Computers in the workforce</a></p>
+      <p> <a style = color:black; href="decision.html">Automated Decision Making</a></p>
+      <p> <a style = color:black; href="environmental.html">Environmental Effects</a> </p>
+      <p> <a style = color:black; href="ethical.html">Ethical issues</a> </p>
+   </div> 
+
+   <!-- where you write --> 
+   <div class="content-area">
+    <div class="title-area">
+        <h1>About us</h1>
+    </div>    
+    <h2>General information</h2> 
+    <p> This website is made to inform you of the future of a.i(Artificial Intelligence), Computers in the workforce, Automated Decision Making, Environmental Effects and Ethical issues.  </p>
+    <h3>Please fill out this form if you would like to join our organisation</h3>
+    <hr \>
+        <!-- form -->
+        <form id= "enquiry">		
+            <br> <h2> Enquiry Form </h2>
+            First name:<br>
+           <input type="text" name="firstname"><br>
+           Last name:<br>
+           <input type="text" name="lastname"><br>
+           Email address:<br>
+           <input type="text" name="email"><br>
+           Brief enquiry on why u should join(optional):<br>
+           <textarea rows="5" cols="30" name ="briefenquiry">
+           </textarea><br><br>
+           <button type="button" onclick="validateForm()">Check</button>
+
+       </form>
+       <!-- javascript -->
+       <script>
+		function validateForm() {
+		var x = document.forms["enquiry"]["firstname"].value;
+		if (x == "") {
+			alert("Name must be filled out");
+        return false;
+			}
+		
+		var x = document.forms["enquiry"]["lastname"].value;
+		if (x == "") {
+			alert("surame must be filled out");
+        return false;
+			}
+			var x = document.forms["enquiry"]["email"].value;
+		if (x == "") {
+			alert("email must be filled out");
+        return false;
+			}
+		}
+		</script>
+   </div> <!-- end of content --> 
+
+    
+</body>
+</html>
+

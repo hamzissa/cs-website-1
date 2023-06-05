@@ -1,0 +1,63 @@
+.navigation-area{
+    position: fixed;
+    float: left;
+    top: 0px; 
+    left: 0px;
+	width:205px;
+	height:100vh;
+    background-color: rgb(226, 192, 2);
+    text-align: center;
+    font-size: 30px;
+}
+.background{
+    position: absolute;
+    float:left;
+    top:0px;
+    width: auto;
+    height: 100vh;
+    background-color: orange;
+}
+.content-area{
+	top: 0px;  
+	left:197px;
+	height:100%;
+	background-color:rgba(0, 0, 255, 0.502);
+    margin-left: 197px;
+
+}
+.title-area{
+    font-size: 25px;
+    text-align: center;
+    background-color: silver;
+    border-style: solid;
+    border-width: 5px;
+    margin-left: 0px;
+    text-decoration: underline;
+}
+h2{
+    text-decoration: underline;
+}
+h3{
+    text-decoration: underline;
+}
+img{
+    width:1227px;
+    height:500px;
+}
+    /* visited link */
+    a:visited{ 
+    color:#FF0000;
+    }
+    
+    /* mouse over link */
+    a:hover{   
+    color:#FF00FF;
+    }
+    
+    /* selected link */
+    a:active{  
+    color:green;
+    }
+
+
+
